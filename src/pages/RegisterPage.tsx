@@ -1,4 +1,5 @@
-import { useState, FormEvent } from 'react';
+import { useState } from 'react';
+import type { FormEvent } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
 import apiClient from '../api/client';
 import { useAuth } from '../context/AuthContext';
@@ -19,9 +20,8 @@ export default function RegisterPage() {
     setLoading(true);
 
     try {
-      const response = await apiClient.post('/auth/register', { name, email, password });
-      const { data } = response.data;
-
+      await apiClient.post('/auth/register', { name, email, password });
+      
       const loginResponse = await apiClient.post('/auth/login', { email, password });
       login(loginResponse.data.data.user, loginResponse.data.data.token);
 

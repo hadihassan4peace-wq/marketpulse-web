@@ -1,5 +1,5 @@
-import { useEffect, useState, FormEvent } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useEffect, useState } from 'react';
+import type { FormEvent } from 'react';
 import apiClient from '../api/client';
 import type { Market } from '../types/market';
 import type { Commodity } from '../types/commodity';
@@ -14,7 +14,6 @@ export default function SubmitReportPage() {
   const [success, setSuccess] = useState('');
   const [loading, setLoading] = useState(false);
 
-  const navigate = useNavigate();
 
   useEffect(() => {
     async function fetchOptions() {
