@@ -7,7 +7,7 @@ The React frontend for **MarketPulse**, a crowdsourced local market price index 
 **🔧 Backend repo:** [marketpulse-api](https://github.com/hadihassan4peace-wq/marketpulse-api)
 
 <!-- Add screenshots here, e.g.: -->
-<!-- ![Markets page](./docs/screenshot-markets.png) -->
+![Markets page](./docs/screenshot-markets.png) 
 <!-- ![Submit report page](./docs/screenshot-submit.png) -->
 
 ---
