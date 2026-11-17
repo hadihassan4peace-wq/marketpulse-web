@@ -8,7 +8,8 @@ The React frontend for **MarketPulse**, a crowdsourced local market price index 
 
 <!-- Add screenshots here, e.g.: -->
 ![Markets page](./docs/screenshot-markets.png) 
-<!-- ![Submit report page](./docs/screenshot-submit.png) -->
+ ![Submit report page](./docs/screenshot-submit.png) 
+ ![Price trends page](./docs/screenshot-trends.png)
 
 ---
 
